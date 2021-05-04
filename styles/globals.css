@@ -14,3 +14,38 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.jumbotron{
+  max-width:100%;
+  margin : 0;
+  padding: 0;
+}
+
+.container{
+  margin : 10px;
+  max-width:40% ;
+  padding :2rem;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+body {
+    background: linear-gradient(0deg, #fff, 50%, #DEEEFE);
+    font-family: 'Rubik', sans-serif;
+    background: #f5f9fc;
+    height: 100 !important
+}
+
+.container-fluid {
+    overflow: hidden;
+    margin-top: 150px;
+    background: #262626;
+    color: #f0f5fa !important;
+    margin-bottom: 0;
+    padding-bottom: 0
+}
+
+small {
+    font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
